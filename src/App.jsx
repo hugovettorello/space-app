@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import EstiloGlobais from "./assets/componentes/EstilosGlobais"
+import { Cabecalho } from "./assets/componentes/EstilosGlobais/Cabecalho"
 
 function App() {
   const FundoGradiente = styled.div`
@@ -11,6 +12,7 @@ function App() {
   return (
     <FundoGradiente>
       <EstiloGlobais/>
+      <Cabecalho/>
     </FundoGradiente>
   )
 }
