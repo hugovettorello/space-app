@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import EstiloGlobais from "./assets/componentes/EstilosGlobais"
 
 function App() {
   const FundoGradiente = styled.div`
@@ -9,7 +10,7 @@ function App() {
 
   return (
     <FundoGradiente>
-    
+      <EstiloGlobais/>
     </FundoGradiente>
   )
 }
